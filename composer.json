@@ -1,0 +1,17 @@
+{
+    "name": "bigfishdesign/sushi-composer-plugin",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "BigfishDesign\\SushiComposerPlugin\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "BigfishDesign\\SushiComposerPlugin\\Plugin"
+    },
+    "require": {
+        "php": ">=5.5",
+        "aws/aws-sdk-php": "^3.0",
+        "composer-plugin-api": "^1.0"
+    }
+}
